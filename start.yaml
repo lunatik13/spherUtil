@@ -1,0 +1,30 @@
+---
+name: "Start Stend Config"
+vms:
+  -
+    name: autotestDeb9
+    dataStore: "QCM2"
+    dcName: "QA DataCenter"
+    folderName: "Shishnev"
+    hostName: "autotestDeb9"
+    operation: "clone"
+    powerOn: true
+    resourcePool: "AutoTest"
+    snapName: "vlan200"
+    vmName: "autotestDeb9"
+    cloneName: "cloneAutoTestDeb9"
+    ip: "192.168.166.20"
+
+
+#  - name: LinuxAgent2Deb8
+#    dataStore: "QCM2"
+#    dcName: "QA DataCenter"
+#    folderName: "folder"
+#    hostName: "baseHsDeb8"
+#    operation: "clone"
+#    powerOn: true
+#    resourcePool: "AutoTest"
+#    snapName: "ready"
+#    vmName: "baseHsDeb8"
+#    cloneName: "clone2BaseHsDeb8"
+#    ip: "dhcp"

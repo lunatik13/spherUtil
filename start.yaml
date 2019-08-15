@@ -10,7 +10,7 @@ vms:
     operation: "clone"
     powerOn: true
     resourcePool: "AutoTest"
-    snapName: "vlan200"
+    snapName: "clean"
     vmName: "autotestDeb9"
     cloneName: "cloneAutoTestDeb9"
     ip: "192.168.166.20"

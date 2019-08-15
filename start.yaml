@@ -5,7 +5,7 @@ vms:
     name: autotestDeb9
     dataStore: "QCM2"
     dcName: "QA DataCenter"
-    folderName: "Shishnev"
+    folderName: "folder"
     hostName: "autotestDeb9"
     operation: "clone"
     powerOn: true
